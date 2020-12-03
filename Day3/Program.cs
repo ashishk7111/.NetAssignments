@@ -11,7 +11,7 @@ namespace Assignment2
         static void Main()
         {
             Console.WriteLine("manager");
-            Manager m1 = new Manager("Anushree", 6000000, 1, "HR");
+            Manager m1 = new Manager("Ashish", 6000000, 1, "HR");
             Console.WriteLine("name " + m1.NAME);
             Console.WriteLine("net salary == " + m1.CalNetSalary());
             Console.WriteLine("===========================================");
@@ -21,7 +21,7 @@ namespace Assignment2
             Console.WriteLine("net salary == " + gm1.CalNetSalary());
             Console.WriteLine("===========================================");
             Console.WriteLine("CEO");
-            CEO c1 = new CEO("Ashwini", 700000, 4);
+            CEO c1 = new CEO("Ashish", 700000, 4);
             Console.WriteLine("name " + c1.NAME);
             Console.WriteLine("net salary == " + c1.CalNetSalary());
             Console.WriteLine("===========================================");
